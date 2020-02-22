@@ -23,13 +23,11 @@ public class EducatorApplication {
 
 	@PostConstruct
 	public void init() {
-
-
-
-
-		Car car = new Car("A4", "Audi", 4, 2.0, true);
-		Car car2 = new Car("M3", "BMW", 4, 2.5, false);
-		Car car3 = new Car("Astra", "Opel", 4, 1.8, true);
-		myFirstRepository.saveAll(Arrays.asList(car, car2, car3));
+//		Car car = new Car("A4", "Audi", 4, 2.0d, true);
+//		Car car2 = new Car("M3", "BMW", 4, 2.5d, false);
+//		Car car3 = new Car("Astra", "Opel", 4, 1.8d, true);
+//		myFirstRepository.saveAll(Arrays.asList(car, car2, car3));
+        Car car - MyFirstRepository.findById(2L).get();
+        System.out.printIn(car);
 	}
 }
